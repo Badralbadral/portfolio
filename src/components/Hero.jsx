@@ -1,16 +1,18 @@
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div className="py-24 px-20 flex justify-between">
       <div className="Bleft">
-        <h1>Hi, I’m Sagar 👋</h1>
-        <p className="desc">
+        <h1 className="text-6xl font-bold text-gray-900 mb-4">
+          Hi, I’m Sagar 👋
+        </h1>
+        <p className="max-w-screen-md h-20 mb-12 text-base font-normal text-gray-600">
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating (and occasionally designing) exceptional digital experiences
           that are fast, accessible, visually appealing, and responsive. Even
           though I have been creating web applications for over 7 years, I still
           love it as if it was something new.
         </p>
-        <p className="location">
+        <p className="flex gap-2 items-center mb-2 text-base font-normal text-gray-600">
           <svg
             width="24"
             height="24"
@@ -35,7 +37,7 @@ export const Hero = () => {
           </svg>
           Ahmedabad, India
         </p>
-        <p className="location">
+        <p className="flex gap-2 items-center mb-2 text-base font-normal text-gray-600">
           <svg
             className="ml-2"
             width="8"
@@ -48,7 +50,7 @@ export const Hero = () => {
           </svg>
           Available for new projects
         </p>
-        <div className="icons">
+        <div className="mt-12 flex gap-4">
           <svg
             width="20"
             height="22"
@@ -124,13 +126,14 @@ export const Hero = () => {
           </svg>
         </div>
       </div>
-      <div className="Bright">
+      <div>
         <img
+          className=" h-72 border-solid border-white border-[7px]"
           src="https://s3-alpha-sig.figma.com/img/f85c/f455/11cd2ba02a83d564218d6500a134a91d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6ilx-NOb63~KzVYyZfxx4qzRN~gm9QHjip~sIpK9MTVSZsX~huwLpZqpJyqW7GDTT8lB8QtBCj5-2PtU-Ygp48aaoTUuruT2gkBXQL~lHchh7pKMdkHIJrb2oMYnvdAYQNxOMjjUIF8HDscGx5Nt7iw4F0WHx0HmiLM~STQEdaUIw0hp1E28oW5KSCJTY9dpgSECxgzNyTUNroqNwgsE5X4gYOS6SIFW~iIc98LskU-vU9DVPo3dEzu2N-2Fz4UiQZedr6UAGezp4AEFbGvN6RWj7EetJyu7prBfAxtS4Q0dAi36VtSyse6uAVnFGuXHQ9Y83-~6UcTO1YSVEzzGQ__"
           alt=""
         />
         <svg
-          className="back"
+          className="w-72 h-72 relative bottom-64 left-12 -z-10"
           width="280"
           height="320"
           viewBox="0 0 280 320"

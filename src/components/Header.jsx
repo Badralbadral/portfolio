@@ -1,15 +1,15 @@
 export const Header = () => {
   return (
-    <div className="header">
-      <div className="logo">&#60;SS /&#62;</div>
-      <div className="midItems">
-        <div className="menus">
+    <div className="flex justify-between  px-20 py-4">
+      <div className=" text-3xl">&#60;SS /&#62;</div>
+      <div className="flex items-center">
+        <div className="flex gap-6 text-base mr-12 text-gray-600 font-medium">
           <p>About</p>
           <p>Work</p>
           <p>Testimonials</p>
           <p>Contact</p>
         </div>
-        <div className="theme">
+        <div className="mr-5 text-gray-600">
           <svg
             width="24"
             height="24"
@@ -82,7 +82,9 @@ export const Header = () => {
             />
           </svg>
         </div>
-        <button className="downCv">Download CV</button>
+        <button className=" text-gray-50 w-[136px] h-9 rounded-xl bg-gray-900">
+          Download CV
+        </button>
       </div>
     </div>
   );
