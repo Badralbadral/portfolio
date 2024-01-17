@@ -15,7 +15,6 @@ body {
 
 @layer components {
   .header {
-    /* only 16?? */
     @apply flex justify-between  px-20 py-4;
   }
 
@@ -36,8 +35,7 @@ body {
   }
 
   .downCv {
-    /* 32?? */
-    @apply text-gray-50 w-32 h-9 rounded-xl bg-gray-900;
+    @apply text-gray-50 w-[136px] h-9 rounded-xl bg-gray-900;
   }
 }
 
@@ -67,8 +65,15 @@ body {
   }
 
   .Bright {
-    /* ?? */
-    @apply w-96 h-80 border-solid bg-gray-400;
+    @apply w-[280px] h-80;
+  }
+
+  .Bright img {
+    @apply h-72 border-solid border-white border-[7px];
+  }
+
+  .back {
+    @apply w-72 h-80 relative left-10 -z-10;
   }
 }
 
@@ -82,20 +87,22 @@ body {
   }
 
   .title {
-    @apply text-sm font-medium text-gray-600 bg-gray-200 rounded-xl py-1 px-5 w-28;
+    @apply text-sm font-medium text-gray-600 bg-gray-200 rounded-xl py-1 px-5;
   }
 
   .body {
     @apply flex gap-12 justify-between;
   }
 
-  .aboutL {
-    /* ??? */
-    @apply min-w-96 h-96 bg-gray-500;
+  .aboutL img {
+    @apply relative bottom-[476px] w-[400px] h-[480px] border-solid border-white border-[7px];
+  }
+  .backAb {
+    @apply relative right-11 top-16 w-[400px] h-[480px];
   }
 
   .aboutR {
-    @apply max-w-xl flex flex-col gap-4;
+    @apply px-14 max-w-2xl flex flex-col gap-4;
   }
 
   .aboutR h3 {
@@ -112,5 +119,23 @@ body {
 
   .ul ul {
     @apply w-72 list-disc font-normal text-base text-gray-600;
+  }
+}
+
+@layer components {
+  .skills {
+    @apply py-24 px-20 flex flex-col items-center;
+  }
+
+  .titleS {
+    @apply font-medium text-sm text-gray-600 bg-gray-200 rounded-xl py-1 px-5;
+  }
+
+  .lilP {
+    @apply mb-12 mt-4 text-gray-600 font-normal text-xl;
+  }
+
+  .languages {
+    @apply w-[1216px] h-[248px];
   }
 }

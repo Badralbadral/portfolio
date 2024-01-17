@@ -5,7 +5,30 @@ export const About = () => {
         <p className="title">About me</p>
       </div>
       <div className="body">
-        <div className="aboutL">image</div>
+        <div className="aboutL">
+          <svg
+            className="backAb"
+            width="280"
+            height="320"
+            viewBox="0 0 280 320"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="4" y="4" width="272" height="312" fill="#E5E7EB" />
+            <rect
+              x="4"
+              y="4"
+              width="272"
+              height="312"
+              stroke="white"
+              stroke-width="8"
+            />
+          </svg>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/8781/bda6/7a25952db5724f48492cd455a6e81952?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iD776LocC9a2IKsEEOaYst01NN5Lo3uvEsPe-g-xHHCoZ3YH2nTx6vngudPrjvMx9V8fPVT4IK3s3nj1Myeef6xBPc9vfd3E4iP1c2fe7QC-nBR2k~YbfdlJNFiyDEEFAXF6TtkbM5EehR2t8RehwXWG5DL-QW2AgEX4WhHCUHTCwg8YVAk0fK5PiQ2zyyV9zL0bfPyOdcr7ihc1WFlz7Tdf-PKy6ukX3mjD0Vo2wuGgontjFSSetothS6hfcwSOXmbzezxEO4NmD29qL1pCYvp2iVoFU~lu0h6JaoLlT3hc0LVsjWRZdSiwGHT0XXpjzdYHAbrDM70dMS1aH~n-hw__"
+            alt=""
+          />
+        </div>
         <div className="aboutR">
           <h3>Curious about me? Here you have it:</h3>
           <p>

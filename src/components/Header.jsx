@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <div className="header">
-      <div className="logo">SS</div>
+      <div className="logo">&#60;SS /&#62;</div>
       <div className="midItems">
         <div className="menus">
           <p>About</p>
