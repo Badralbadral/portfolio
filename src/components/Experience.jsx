@@ -23,6 +23,25 @@ export const Experience = () => {
             />
           );
         })}
+        <div className="w-[896px] h-fit bg-white p-8 rounded-xl flex gap-12 drop-shadow-md">
+          <h3 className="w-[206px] h-7 ">
+            <img src="/logo-upwork.png" alt="" />
+          </h3>
+          <div>
+            <h4 className="text-gray-900 text-xl font-semibold mb-4">
+              Full Stack Developer
+            </h4>
+            <ul className="text-gray-600 list-disc flex flex-col gap-1 w-[350px]">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+            </ul>
+          </div>
+          <p className="text-gray-700 text-base font-normal">
+            Dec 2015 - May 2017
+          </p>
+        </div>
       </div>
     </div>
   );

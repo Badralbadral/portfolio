@@ -13,11 +13,11 @@ export const Portfolio = () => {
       <Header />
       <Hero />
       <About />
-      <Skills />
-      <Experience />
-      <Work />
-      <ContactME />
-      <Footer />
+      {/* <Skills /> */}
+      {/* <Experience /> */}
+      {/* <Work /> */}
+      {/* <ContactME /> */}
+      {/* <Footer /> */}
     </>
   );
 };

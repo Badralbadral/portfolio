@@ -1,8 +1,40 @@
 export const Header = () => {
   return (
-    <div className="flex justify-between  px-20 py-4">
-      <div className=" text-3xl">&#60;SS /&#62;</div>
-      <div className="flex items-center">
+    <div className="flex justify-between items-center px-20 py-4 // max-[375px]:w-[375px] max-[375px]:h-[68px] max-[375px]:p-4">
+      <div className=" text-3xl //max-[375px]:w-full max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[211px]">
+        &#60;SS /&#62;
+        <svg
+          className="min-[376px]:hidden max-[375px]:block"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 18H26"
+            stroke="#4B5563"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M10 12H26"
+            stroke="#4B5563"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M10 24H26"
+            stroke="#4B5563"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div className="flex items-center max-[376px]:hidden">
         <div className="flex gap-6 text-base mr-12 text-gray-600 font-medium">
           <p>About</p>
           <p>Work</p>

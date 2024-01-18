@@ -1,6 +1,6 @@
 import { Div } from "./Div";
-import { Languages } from "@/dummyData";
-import { LanguagesS } from "@/dummyData";
+import { Languages } from "./DummyDatas";
+import { LanguagesS } from "./DummyDatas";
 
 export const Skills = () => {
   return (
