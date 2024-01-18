@@ -134,7 +134,7 @@ export const Languages = [
   },
   // 4
   {
-    svg: <img src="/Tech.png" />,
+    svg: <img src="/TechNext.png" />,
   },
   {
     svg: (

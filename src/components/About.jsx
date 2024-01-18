@@ -9,7 +9,7 @@ export const About = () => {
       <div className="flex justify-between // max-[375px]:flex-col ">
         <div className="max-[375px]:flex max-[375px]:flex-col max-[375px]:items-center">
           <svg
-            className="max-[375px]:relative max-[375px]:mb-[45px]"
+            className="max-[375px]:relative max-[375px]:mb-[45px] min-[376px]:hidden max-[375px]:block"
             width="311"
             height="300 "
             viewBox="0 0 281 280"
@@ -27,7 +27,7 @@ export const About = () => {
             />
           </svg>
           <img
-            className="w-[400px] h-[460px] relative left-4 border-solid  border-white border-[7px] shadow-[-30px_35px_0px_0px_rgba(238,238,238)] // max-[375px]:w-[260px] max-[375px]:h-[330px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute max-[375px]:left-[57px] max-[375px]:bottom-[-170px]"
+            className="w-[400px] h-[460px] relative left-4  border-solid  border-white border-[7px] shadow-[-30px_35px_0px_0px_rgba(238,238,238)] // max-[375px]:w-[260px] max-[375px]:h-[310px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute max-[375px]:left-[57px] max-[375px]:top-[1084px]"
             src="https://s3-alpha-sig.figma.com/img/8781/bda6/7a25952db5724f48492cd455a6e81952?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iD776LocC9a2IKsEEOaYst01NN5Lo3uvEsPe-g-xHHCoZ3YH2nTx6vngudPrjvMx9V8fPVT4IK3s3nj1Myeef6xBPc9vfd3E4iP1c2fe7QC-nBR2k~YbfdlJNFiyDEEFAXF6TtkbM5EehR2t8RehwXWG5DL-QW2AgEX4WhHCUHTCwg8YVAk0fK5PiQ2zyyV9zL0bfPyOdcr7ihc1WFlz7Tdf-PKy6ukX3mjD0Vo2wuGgontjFSSetothS6hfcwSOXmbzezxEO4NmD29qL1pCYvp2iVoFU~lu0h6JaoLlT3hc0LVsjWRZdSiwGHT0XXpjzdYHAbrDM70dMS1aH~n-hw__"
             alt=""
           />

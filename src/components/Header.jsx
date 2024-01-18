@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <div className="flex justify-between items-center px-20 py-4 // max-[375px]:w-[375px] max-[375px]:h-[68px] max-[375px]:p-4">
-      <div className=" text-3xl //max-[375px]:w-full max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[211px]">
+      <div className=" text-3xl || max-[375px]:w-full max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[209px]">
         &#60;SS /&#62;
         <svg
           className="min-[376px]:hidden max-[375px]:block"
