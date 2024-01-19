@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="py-24 px-20 flex justify-between max-[375px]:flex-col-reverse max-[375px]:py-16 max-[375px]:px-4 max-[375px]:gap-[90px] dark:bg-[#030712]">
+    <div className="pt-44 pb-24 px-20 flex justify-between max-[375px]:flex-col-reverse max-[375px]:py-16 max-[375px]:px-4 max-[375px]:gap-[90px] dark:bg-[#030712] ">
       <div className="Bleft ">
         <h1 className="text-6xl font-bold text-gray-900 mb-4 // max-[375px]:font-semibold max-[375px]:text-4xl max-[375px]:mb-2 dark:text-[#D1D5DB]">
           Hi, I’m Sagar 👋
@@ -146,7 +146,7 @@ export const Hero = () => {
           />
         </svg>
         <img
-          className="shadow-[30px_25px_0px_0px_rgba(238,238,238)] border-solid border-white dark:border-[#030712] border-[8px] w-[310px] h-[320px] // max-[375px]:w-[240px] max-[375px]:h-[284px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute"
+          className="shadow-[30px_25px_0px_0px_rgba(238,238,238)] border-solid border-white dark:border-[#030712] border-[8px] w-[310px] h-[320px] // max-[375px]:w-[240px] max-[375px]:h-[284px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute max-[375px]:mt-10"
           src="https://s3-alpha-sig.figma.com/img/f85c/f455/11cd2ba02a83d564218d6500a134a91d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6ilx-NOb63~KzVYyZfxx4qzRN~gm9QHjip~sIpK9MTVSZsX~huwLpZqpJyqW7GDTT8lB8QtBCj5-2PtU-Ygp48aaoTUuruT2gkBXQL~lHchh7pKMdkHIJrb2oMYnvdAYQNxOMjjUIF8HDscGx5Nt7iw4F0WHx0HmiLM~STQEdaUIw0hp1E28oW5KSCJTY9dpgSECxgzNyTUNroqNwgsE5X4gYOS6SIFW~iIc98LskU-vU9DVPo3dEzu2N-2Fz4UiQZedr6UAGezp4AEFbGvN6RWj7EetJyu7prBfAxtS4Q0dAi36VtSyse6uAVnFGuXHQ9Y83-~6UcTO1YSVEzzGQ__"
           alt=""
         />

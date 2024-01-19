@@ -1,74 +1,7 @@
-import { useTheme } from "next-themes";
-import { SideBar } from "./SideBar";
-
-export const Header = () => {
-  const { theme, setTheme } = useTheme();
-
+export const SideBar = () => {
   return (
-    <div
-      className="fixed z-50 bg-white w-full flex justify-between items-center px-20 py-4 dark:bg-[#030712] // max-[375px]:w-[375px] max-[375px]:p-4 max-[375px]:flex-col max-[375px]:h-fit
-     max-[375px]:overflow-hidden duration-300  "
-    >
-      <div className=" text-3xl || max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[209px] max-[375px]:border-b-[1px] ">
-        <a href="#section1">&#60;SS /&#62;</a>
-        <svg
-          className="min-[376px]:hidden max-[375px]:block max-[375px]:mb-4"
-          width="36"
-          height="36"
-          viewBox="0 0 36 36"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10 18H26"
-            stroke="#4B5563"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M10 12H26"
-            stroke="#4B5563"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M10 24H26"
-            stroke="#4B5563"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        {/* <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g id="Icon">
-            <path
-              id="Vector"
-              d="M18 6L6 18"
-              stroke="#4B5563"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              id="Vector_2"
-              d="M6 6L18 18"
-              stroke="#4B5563"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </g>
-        </svg> */}
-      </div>
-      <div className="flex items-center max-[376px]:flex-col  max-[375px]:w-full  max-[375px]:items-start max-[375px]:hidden max-[375px]:mt-3">
+    <div>
+      <div className="flex items-center max-[376px]:flex-col  max-[375px]:w-full  max-[375px]:items-start  max-[375px]:mt-3">
         <nav className="flex gap-6 text-lg mr-12 text-gray-600 font-medium dark:text-[#D1D5DB] max-[376px]:flex-col max-[375px]:gap-4   max-[375px]:mb-4">
           <a
             href="#section3"
@@ -96,9 +29,7 @@ export const Header = () => {
           </a>
         </nav>
         <div className="mr-5 text-gray-600 dark:text-[#D1D5DB] max-[375px]:flex max-[375px]:w-full max-[375px]:justify-between max-[375px]:border-t-[1px] max-[375px]:pt-3">
-          <p className="text-lg text-gray-600 font-normal hidden">
-            Switch Theme
-          </p>
+          <p className="text-lg text-gray-600 font-normal">Switch Theme</p>
           <svg
             className="hidden dark:block cursor-pointer"
             onClick={() => setTheme(`light`)}
@@ -204,7 +135,7 @@ export const Header = () => {
             />
           </svg>
         </div>
-        <button className="text-gray-50 hover:bg-gray-50 hover:text-gray-900 hover:border-[1px] hover:border-gray-900 duration-300 w-[136px] h-9 rounded-xl bg-gray-900 max-[375px]:mt-6 max-[375px]:w-[341px] dark:bg-white dark:text-[#111827]">
+        <button className="text-gray-50 w-[136px] h-9 rounded-xl bg-gray-900 max-[375px]:mt-6 max-[375px]:w-[341px] dark:bg-white dark:text-[#111827]">
           Download CV
         </button>
       </div>
