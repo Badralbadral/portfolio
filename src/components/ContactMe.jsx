@@ -1,14 +1,14 @@
 export const ContactME = () => {
   return (
-    <div className="h-[560px] py-24 px-20 flex flex-col items-center || max-[375px]:py-16 max-[375px]:px-4">
-      <p className="py-1 px-5 bg-gray-200 rounded-xl text-gray-600 text-sm font-medium mb-4">
+    <div className="dark:bg-[#030712] h-[560px] py-24 px-20 flex flex-col items-center || max-[375px]:py-16 max-[375px]:px-4">
+      <p className="dark:bg-[#374151] dark:text-[#D1D5DB] py-1 px-5 bg-gray-200 rounded-xl text-gray-600 text-sm font-medium mb-4">
         Get in touch
       </p>
-      <p className="text-gray-600 text-center text-xl font-normal mb-12 w-[550px] || max-[375px]:w-[323px] max-[375px]:font-normal max-[375px]:text-xl max-[375px]:text-center">
+      <p className="dark:text-[#D1D5DB]text-gray-600 text-center text-xl font-normal mb-12 w-[550px] || max-[375px]:w-[323px] max-[375px]:font-normal max-[375px]:text-xl max-[375px]:text-center">
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </p>
-      <h1 className="flex mb-[18px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl  max-[375px]:gap-[16px]">
+      <h1 className="dark:text-[#D1D5DB] flex mb-[18px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl  max-[375px]:gap-[16px]">
         <svg
           className="max-[375px]:w-[24px]"
           width="32 "
@@ -57,7 +57,7 @@ export const ContactME = () => {
           />
         </svg>
       </h1>
-      <h1 className="flex mb-[50px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl max-[375px]:gap-[16px]">
+      <h1 className="dark:text-[#D1D5DB] flex mb-[50px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl max-[375px]:gap-[16px]">
         <svg
           className="max-[375px]:w-[24px]"
           width="30"
@@ -99,7 +99,7 @@ export const ContactME = () => {
           />
         </svg>
       </h1>
-      <p className="text-gray-600 text-base font-normal">
+      <p className="dark:text-[#D1D5DB] text-gray-600 text-base font-normal">
         You may also find me on these platforms!
       </p>
       <div className="mt-12 flex gap-4 || max-[375px]:mt-4 max-[375px]:gap-3 max-[375px]:items-center">
