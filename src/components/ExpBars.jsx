@@ -4,7 +4,7 @@ export const ExpBars = ({ title, list, date }) => {
       <h3 className="w-[206px]">
         <img src="/logo-upwork.png" />
       </h3>
-      <h6 className="text-gray-700 text-base font-normal || min-[375px]:hidden max-[375px]:block ">
+      <h6 className="text-gray-700 dark:text-[#D1D5DB] text-base font-normal || min-[375px]:hidden max-[375px]:block ">
         {date}
       </h6>
       <div>

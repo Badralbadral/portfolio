@@ -1,8 +1,11 @@
+import { useTheme } from "next-themes";
+
 export const SideBar = () => {
+  const { theme, setTheme } = useTheme();
   return (
-    <div>
-      <div className="flex items-center max-[376px]:flex-col  max-[375px]:w-full  max-[375px]:items-start  max-[375px]:mt-3">
-        <nav className="flex gap-6 text-lg mr-12 text-gray-600 font-medium dark:text-[#D1D5DB] max-[376px]:flex-col max-[375px]:gap-4   max-[375px]:mb-4">
+    <div className="max-[375px]:border-t-[1px] max-[375px]:mt-4 min-[375px]:hidden">
+      <div className="flex items-center max-[376px]:flex-col  max-[375px]:w-full  max-[375px]:items-start  max-[375px]:mt-3 min-[375px]:hidden">
+        <nav className="flex gap-6 text-lg mr-12 text-gray-600 font-medium dark:text-[#D1D5DB] max-[376px]:flex-col max-[375px]:gap-4 max-[375px]:mb-4 min-[375px]:hidden">
           <a
             href="#section3"
             className="hover:bg-gray-900 dark:hover:bg-white dark:hover:text-[#111827] duration-300 rounded-xl hover:px-3 hover:text-[#D1D5DB]"
@@ -135,7 +138,7 @@ export const SideBar = () => {
             />
           </svg>
         </div>
-        <button className="text-gray-50 w-[136px] h-9 rounded-xl bg-gray-900 max-[375px]:mt-6 max-[375px]:w-[341px] dark:bg-white dark:text-[#111827]">
+        <button className="text-gray-50 hover:bg-gray-50 hover:text-gray-900 hover:border-[1px] hover:border-gray-900 dark:hover:border-gray-50 dark:hover:bg-gray-900 dark:hover:text-gray-50 duration-300 w-[136px] h-9 rounded-xl bg-gray-900 max-[375px]:mt-6 max-[375px]:w-[341px] dark:bg-white dark:text-[#111827]">
           Download CV
         </button>
       </div>

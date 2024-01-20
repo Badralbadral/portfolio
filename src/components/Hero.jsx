@@ -128,7 +128,7 @@ export const Hero = () => {
       </div>
       <div className="flex flex-col items-center">
         <svg
-          className="min-[376px]:hidden max-[375px]:block max-[375px]:relative max-[375px]:top-[30px]"
+          className="min-[376px]:hidden max-[375px]:block max-[375px]:relative max-[375px]:top-[68px] dark:hidden"
           width="301"
           height="280"
           viewBox="0 0 281 280"
@@ -145,8 +145,26 @@ export const Hero = () => {
             stroke-width="8"
           />
         </svg>
+        <svg
+          className="hidden min-[376px]:hidden max-[375px]:dark:block max-[375px]:relative max-[375px]:top-[68px]"
+          width="281"
+          height="280"
+          viewBox="0 0 281 280"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="4.5" y="4" width="272" height="272" fill="#374151" />
+          <rect
+            x="4.5"
+            y="4"
+            width="272"
+            height="272"
+            stroke="#030712"
+            stroke-width="8"
+          />
+        </svg>
         <img
-          className="shadow-[30px_25px_0px_0px_rgba(238,238,238)] border-solid border-white dark:border-[#030712] border-[8px] w-[310px] h-[320px] // max-[375px]:w-[240px] max-[375px]:h-[284px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute max-[375px]:mt-10"
+          className="shadow-[30px_25px_0px_0px_rgba(238,238,238)] dark:shadow-[30px_35px_0px_0px_rgba(55,65,81)] border-solid border-white dark:border-[#030712] border-[8px] w-[310px] h-[320px] // max-[375px]:w-[240px] max-[375px]:h-[284px] max-[375px]:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:dark:shadow-[0px_0px_0px_0px_rgba(0,0,0)] max-[375px]:absolute max-[375px]:mt-10"
           src="https://s3-alpha-sig.figma.com/img/f85c/f455/11cd2ba02a83d564218d6500a134a91d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J6ilx-NOb63~KzVYyZfxx4qzRN~gm9QHjip~sIpK9MTVSZsX~huwLpZqpJyqW7GDTT8lB8QtBCj5-2PtU-Ygp48aaoTUuruT2gkBXQL~lHchh7pKMdkHIJrb2oMYnvdAYQNxOMjjUIF8HDscGx5Nt7iw4F0WHx0HmiLM~STQEdaUIw0hp1E28oW5KSCJTY9dpgSECxgzNyTUNroqNwgsE5X4gYOS6SIFW~iIc98LskU-vU9DVPo3dEzu2N-2Fz4UiQZedr6UAGezp4AEFbGvN6RWj7EetJyu7prBfAxtS4Q0dAi36VtSyse6uAVnFGuXHQ9Y83-~6UcTO1YSVEzzGQ__"
           alt=""
         />
