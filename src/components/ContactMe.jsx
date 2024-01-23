@@ -10,7 +10,7 @@ export const ContactME = () => {
       </p>
       <h1 className="dark:text-[#D1D5DB] flex mb-[18px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl  max-[375px]:gap-[16px]">
         <svg
-          className="max-[375px]:w-[24px]"
+          className="max-[375px]:w-[24px] dark:hidden"
           width="32 "
           height="32"
           viewBox="0 0 32 32"
@@ -32,9 +32,32 @@ export const ContactME = () => {
             stroke-linejoin="round"
           />
         </svg>
+        <svg
+          className="max-[375px]:w-[24px] hidden dark:block"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <path
+            d="M26.6665 5.3335H5.33317C3.86041 5.3335 2.6665 6.5274 2.6665 8.00016V24.0002C2.6665 25.4729 3.86041 26.6668 5.33317 26.6668H26.6665C28.1393 26.6668 29.3332 25.4729 29.3332 24.0002V8.00016C29.3332 6.5274 28.1393 5.3335 26.6665 5.3335Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M29.3332 9.3335L17.3732 16.9335C16.9615 17.1914 16.4856 17.3282 15.9998 17.3282C15.5141 17.3282 15.0381 17.1914 14.6265 16.9335L2.6665 9.3335"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
         reachsagarshah@gmail.com
         <svg
-          className="max-[375px]:w-[24px]"
+          className="max-[375px]:w-[24px] dark:hidden"
           width="32"
           height="32"
           viewBox="0 0 32 32"
@@ -56,10 +79,33 @@ export const ContactME = () => {
             stroke-linejoin="round"
           />
         </svg>
+        <svg
+          className="max-[375px]:w-[24px] hidden dark:block"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <path
+            d="M26.6665 10.6665H13.3332C11.8604 10.6665 10.6665 11.8604 10.6665 13.3332V26.6665C10.6665 28.1393 11.8604 29.3332 13.3332 29.3332H26.6665C28.1393 29.3332 29.3332 28.1393 29.3332 26.6665V13.3332C29.3332 11.8604 28.1393 10.6665 26.6665 10.6665Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.33317 21.3332C3.8665 21.3332 2.6665 20.1332 2.6665 18.6665V5.33317C2.6665 3.8665 3.8665 2.6665 5.33317 2.6665H18.6665C20.1332 2.6665 21.3332 3.8665 21.3332 5.33317"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </h1>
       <h1 className="dark:text-[#D1D5DB] flex mb-[50px] gap-5 text-gray-900 text-4xl font-semibold items-center || max-[375px]:text-xl max-[375px]:gap-[16px]">
         <svg
-          className="max-[375px]:w-[24px]"
+          className="max-[375px]:w-[24px] dark:hidden"
           width="30"
           height="30"
           viewBox="0 0 30 30"
@@ -74,9 +120,25 @@ export const ContactME = () => {
             stroke-linejoin="round"
           />
         </svg>
+        <svg
+          className="max-[375px]:w-[24px] hidden dark:block"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <path
+            d="M29.3334 22.56V26.56C29.3349 26.9313 29.2589 27.2989 29.1101 27.6391C28.9613 27.9793 28.7431 28.2848 28.4695 28.5358C28.1959 28.7868 27.8728 28.9779 27.5211 29.0969C27.1693 29.2159 26.7966 29.2601 26.4267 29.2266C22.3239 28.7808 18.3827 27.3788 14.9201 25.1333C11.6985 23.0862 8.96719 20.3549 6.92007 17.1333C4.66671 13.6549 3.2644 9.69463 2.82674 5.5733C2.79342 5.20459 2.83724 4.83298 2.95541 4.48213C3.07357 4.13128 3.2635 3.80889 3.51309 3.53546C3.76269 3.26204 4.06648 3.04358 4.40513 2.894C4.74378 2.74441 5.10986 2.66698 5.48007 2.66663H9.48007C10.1271 2.66026 10.7545 2.8894 11.2451 3.31134C11.7357 3.73328 12.0562 4.31923 12.1467 4.95997C12.3156 6.24006 12.6287 7.49694 13.0801 8.70663C13.2595 9.18387 13.2983 9.70252 13.1919 10.2011C13.0856 10.6998 12.8386 11.1574 12.4801 11.52L10.7867 13.2133C12.6848 16.5514 15.4487 19.3152 18.7867 21.2133L20.4801 19.52C20.8426 19.1615 21.3003 18.9144 21.7989 18.8081C22.2975 18.7018 22.8162 18.7406 23.2934 18.92C24.5031 19.3714 25.76 19.6845 27.0401 19.8533C27.6878 19.9447 28.2793 20.2709 28.7021 20.77C29.125 21.269 29.3496 21.9061 29.3334 22.56Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
         +91 8980500565
         <svg
-          className="max-[375px]:w-[24px]"
+          className="max-[375px]:w-[24px] dark:hidden"
           width="32"
           height="32"
           viewBox="0 0 32 32"
@@ -98,11 +160,34 @@ export const ContactME = () => {
             stroke-linejoin="round"
           />
         </svg>
+        <svg
+          className="max-[375px]:w-[24px] hidden dark:block"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <path
+            d="M26.6665 10.6665H13.3332C11.8604 10.6665 10.6665 11.8604 10.6665 13.3332V26.6665C10.6665 28.1393 11.8604 29.3332 13.3332 29.3332H26.6665C28.1393 29.3332 29.3332 28.1393 29.3332 26.6665V13.3332C29.3332 11.8604 28.1393 10.6665 26.6665 10.6665Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.33317 21.3332C3.8665 21.3332 2.6665 20.1332 2.6665 18.6665V5.33317C2.6665 3.8665 3.8665 2.6665 5.33317 2.6665H18.6665C20.1332 2.6665 21.3332 3.8665 21.3332 5.33317"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </h1>
       <p className="dark:text-[#D1D5DB] text-gray-600 text-base font-normal">
         You may also find me on these platforms!
       </p>
-      <div className="mt-12 flex gap-4 || max-[375px]:mt-4 max-[375px]:gap-3 max-[375px]:items-center">
+      <div className="mt-12 flex gap-4 || max-[375px]:mt-4 max-[375px]:gap-3 max-[375px]:items-center dark:hidden">
         <svg
           className="max-[375px]:w-[24px] max-[375px]:h-[24px]"
           width="20"
@@ -174,6 +259,88 @@ export const ContactME = () => {
           <path
             d="M5 12.5C5 11.5717 5.36875 10.6815 6.02513 10.0251C6.6815 9.36875 7.57174 9 8.5 9H12V16H8.5C7.57174 16 6.6815 15.6313 6.02513 14.9749C5.36875 14.3185 5 13.4283 5 12.5Z"
             stroke="#4B5563"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div className="opacity-0 mt-9  dark:opacity-100 flex">
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.9998 28V24C21.1389 22.7473 20.7797 21.4901 19.9998 20.5C22.9998 20.5 25.9998 18.5 25.9998 15C26.0798 13.75 25.7298 12.52 24.9998 11.5C25.2798 10.35 25.2798 9.15 24.9998 8C24.9998 8 23.9998 8 21.9998 9.5C19.3598 9 16.6398 9 13.9998 9.5C11.9998 8 10.9998 8 10.9998 8C10.6998 9.15 10.6998 10.35 10.9998 11.5C10.2717 12.5159 9.91827 13.7528 9.99979 15C9.99979 18.5 12.9998 20.5 15.9998 20.5C15.6098 20.99 15.3198 21.55 15.1498 22.15C14.9798 22.75 14.9298 23.38 14.9998 24V28"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M15 24C10.49 26 10 22 8 22"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M28 10C28 10 27.3 12.1 26 13.4C27.6 23.4 16.6 30.7 8 25C10.2 25.1 12.4 24.4 14 23C9 21.5 6.5 15.6 9 11C11.2 13.6 14.6 15.1 18 15C17.1 10.8 22 8.4 25 11.2C26.1 11.2 28 10 28 10Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 11.5C11 10.5717 11.3687 9.6815 12.0251 9.02513C12.6815 8.36875 13.5717 8 14.5 8H18V15H14.5C13.5717 15 12.6815 14.6313 12.0251 13.9749C11.3687 13.3185 11 12.4283 11 11.5Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 8H21.5C21.9596 8 22.4148 8.09053 22.8394 8.26642C23.264 8.44231 23.6499 8.70012 23.9749 9.02513C24.2999 9.35013 24.5577 9.73597 24.7336 10.1606C24.9095 10.5852 25 11.0404 25 11.5C25 11.9596 24.9095 12.4148 24.7336 12.8394C24.5577 13.264 24.2999 13.6499 23.9749 13.9749C23.6499 14.2999 23.264 14.5577 22.8394 14.7336C22.4148 14.9095 21.9596 15 21.5 15H18V8Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 18.5C18 18.0404 18.0905 17.5852 18.2664 17.1606C18.4423 16.736 18.7001 16.3501 19.0251 16.0251C19.3501 15.7001 19.736 15.4423 20.1606 15.2664C20.5852 15.0905 21.0404 15 21.5 15C21.9596 15 22.4148 15.0905 22.8394 15.2664C23.264 15.4423 23.6499 15.7001 23.9749 16.0251C24.2999 16.3501 24.5577 16.736 24.7336 17.1606C24.9095 17.5852 25 18.0404 25 18.5C25 18.9596 24.9095 19.4148 24.7336 19.8394C24.5577 20.264 24.2999 20.6499 23.9749 20.9749C23.6499 21.2999 23.264 21.5577 22.8394 21.7336C22.4148 21.9095 21.9596 22 21.5 22C21.0404 22 20.5852 21.9095 20.1606 21.7336C19.736 21.5577 19.3501 21.2999 19.0251 20.9749C18.7001 20.6499 18.4423 20.264 18.2664 19.8394C18.0905 19.4148 18 18.9596 18 18.5Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M11 25.5C11 24.5717 11.3687 23.6815 12.0251 23.0251C12.6815 22.3687 13.5717 22 14.5 22H18V25.5C18 26.4283 17.6313 27.3185 16.9749 27.9749C16.3185 28.6313 15.4283 29 14.5 29C13.5717 29 12.6815 28.6313 12.0251 27.9749C11.3687 27.3185 11 26.4283 11 25.5Z"
+            stroke="#D1D5DB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M11 18.5C11 17.5717 11.3687 16.6815 12.0251 16.0251C12.6815 15.3687 13.5717 15 14.5 15H18V22H14.5C13.5717 22 12.6815 21.6313 12.0251 20.9749C11.3687 20.3185 11 19.4283 11 18.5Z"
+            stroke="#D1D5DB"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"

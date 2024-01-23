@@ -15,7 +15,7 @@ export const Header = () => {
       className="fixed left-0 right-0 z-50 bg-white w-full flex justify-between items-center px-20 py-4 dark:bg-[#030712] // max-[375px]:w-[375px] max-[375px]:p-4 max-[375px]:flex-col max-[375px]:h-fit
      max-[375px]:overflow-hidden duration-300"
     >
-      <div className=" text-3xl || max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[209px]  ">
+      <div className=" text-3xl || max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[209px]">
         <a href="#section1">&#60;SS /&#62;</a>
         <div onClick={toggle}>
           {open ? (
