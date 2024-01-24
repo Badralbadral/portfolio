@@ -14,6 +14,7 @@ export const Skills = () => {
       <div className="w-[1216px] h-[248px] flex flex-col gap-12 || max-[375px]:w-[343px] max-[375px]:hidden">
         <div className="flex justify-between">
           {Languages.map((e) => {
+            console.log(e.svg.props);
             return <Div value={e.svg} title={e.title} />;
           })}
         </div>
@@ -23,7 +24,7 @@ export const Skills = () => {
           })}
         </div>
       </div>
-      <div className="flex justify-between || max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:gap-[20px] min-[375px]:hidden max-[375px]:block">
+      <div className="flex justify-between || max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:gap-[20px] min-[375px]:hidden ">
         {Languages.map((e) => {
           return <Div value={e.svg} title={e.title} />;
         })}

@@ -3,7 +3,7 @@ import { Upworks } from "@/dummyData";
 
 export const Experience = () => {
   return (
-    <div className="dark:bg-[#111827] h-[1240px] bg-gray-50 py-24 px-20 flex flex-col items-center || max-[375px]:py-16 max-[375px]:px-4">
+    <div className="dark:bg-[#111827] h-[1320px] bg-gray-50 py-24 px-20 flex flex-col items-center || max-[375px]:py-16 max-[375px]:px-4">
       <p className="dark:bg-[#374151] dark:text-[#D1D5DB] py-1 px-5 bg-gray-200 rounded-xl text-gray-600 text-sm font-medium mb-4">
         Experience
       </p>
