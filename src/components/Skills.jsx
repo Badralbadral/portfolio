@@ -13,25 +13,36 @@ export const Skills = () => {
       </p>
       <div className="w-[1216px] h-[248px] flex flex-col gap-12 || max-[375px]:w-[343px] max-[375px]:hidden">
         <div className="flex justify-between">
-          {Languages.map((e) => {
-            console.log(e.svg.props);
-            return <Div value={e.svg} title={e.title} />;
+          {Languages.map((e, index) => {
+            return <Div key={index} value={e.svg} title={e.title} />;
           })}
         </div>
         <div className="flex justify-between">
-          {LanguagesS.map((e) => {
-            return <Div value={e.svg} title={e.title} />;
+          {LanguagesS.map((e, index) => {
+            return <Div key={index} value={e.svg} title={e.title} />;
           })}
         </div>
       </div>
       <div className="flex justify-between || max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:gap-[20px] min-[375px]:hidden ">
-        {Languages.map((e) => {
-          return <Div value={e.svg} title={e.title} />;
+        {Languages.map((e, index) => {
+          return <Div key={index} value={e.svg} title={e.title} />;
         })}
-        {LanguagesS.map((e) => {
-          return <Div value={e.svg} title={e.title} />;
+        {LanguagesS.map((e, index) => {
+          return <Div key={index} value={e.svg} title={e.title} />;
         })}
       </div>
+      <img
+        src="/Vector1.svg"
+        className="absolute pt-[132px] pl-[500px] max-[375px]:pl-[247px] max-[375px]:pt-[281px] hidden dark:block"
+      />
+      <img
+        src="/Vector2.svg"
+        className="absolute pt-[123px] pl-[1158px] max-[375px]:pl-[0px] max-[375px]:pt-[389px] hidden dark:block"
+      />
+      <img
+        src="/icon-cypress.svg"
+        className="absolute pt-[269px] pl-[510px] max-[375px]:pl-[0px] max-[375px]:pt-[633px] hidden dark:block"
+      />
     </div>
   );
 };

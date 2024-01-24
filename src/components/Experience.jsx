@@ -11,8 +11,10 @@ export const Experience = () => {
         Here is a quick summary of my most recent experiences:
       </p>
       <div className="flex flex-col items-center gap-12 || max-[375px]:gap-[24px]">
-        {Upworks.map((e) => {
-          return <ExpBars title={e.title} list={e.list} date={e.date} />;
+        {Upworks.map((e, index) => {
+          return (
+            <ExpBars key={index} title={e.title} list={e.list} date={e.date} />
+          );
         })}
       </div>
     </div>

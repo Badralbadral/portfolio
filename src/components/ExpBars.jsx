@@ -12,8 +12,8 @@ export const ExpBars = ({ title, list, date }) => {
           {title}
         </h4>
         <ul className="dark:text-[#D1D5DB] text-gray-600 list-disc flex flex-col gap-1 w-[350px] || max-[375px]:w-[279px]">
-          {list.map((e) => {
-            return <li>{e}</li>;
+          {list.map((e, index) => {
+            return <li key={index}>{e}</li>;
           })}
         </ul>
       </div>

@@ -12,7 +12,9 @@ export const Work = () => {
       </p>
       <div>
         {Fiskil.map((e, index) => {
-          return <WorkBar title={e.title} desc={e.desc} index={index} />;
+          return (
+            <WorkBar title={e.title} desc={e.desc} index={index} key={index} />
+          );
         })}
       </div>
     </div>
