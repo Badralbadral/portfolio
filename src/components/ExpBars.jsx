@@ -17,7 +17,7 @@ export const ExpBars = ({ title, list, date }) => {
           })}
         </ul>
       </div>
-      <p className="  dark:text-[#D1D5DB]text-gray-700 text-base font-normal || max-[375px]:hidden">
+      <p className="  dark:text-[#D1D5DB] text-gray-700 text-base font-normal || max-[375px]:hidden">
         {date}
       </p>
     </div>

@@ -5,7 +5,7 @@ export const SideBar = () => {
   return (
     <div className="max-[375px]:border-t-[1px] max-[375px]:mt-4 min-[375px]:hidden">
       <div className="flex items-center max-[376px]:flex-col  max-[375px]:w-full  max-[375px]:items-start  max-[375px]:mt-3 min-[375px]:hidden">
-        <nav className="flex gap-6 text-lg mr-12 text-gray-600 font-medium dark:text-[#D1D5DB] max-[376px]:flex-col max-[375px]:gap-4 max-[375px]:mb-4 min-[375px]:hidden">
+        <nav className="flex gap-6 text-lg mr-12 text-gray-600 font-medium dark:text-[#D1D5DB] max-[376px]:flex-col max-[375px]:gap-5 max-[375px]:mb-4 min-[375px]:hidden">
           <a
             href="#section3"
             className="hover:bg-gray-900 dark:hover:bg-white dark:hover:text-[#111827] duration-300 rounded-xl hover:px-3 hover:text-[#D1D5DB]"
@@ -32,7 +32,7 @@ export const SideBar = () => {
           </a>
         </nav>
         <div className="mr-5 text-gray-600 dark:text-[#D1D5DB] max-[375px]:flex max-[375px]:w-full max-[375px]:justify-between max-[375px]:border-t-[1px] max-[375px]:pt-3">
-          <p className="text-lg text-gray-600 font-normal">Switch Theme</p>
+          <p className="text-lg mt-1 font-normal">Switch Theme</p>
           <svg
             className="hidden dark:block cursor-pointer"
             onClick={() => setTheme(`light`)}

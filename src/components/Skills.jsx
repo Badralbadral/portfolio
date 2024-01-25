@@ -41,7 +41,7 @@ export const Skills = () => {
       />
       <img
         src="/icon-cypress.svg"
-        className="absolute pt-[269px] pl-[510px] max-[375px]:pl-[0px] max-[375px]:pt-[633px] hidden dark:block"
+        className="absolute pt-[267px] pl-[513px] max-[375px]:pl-[0px] max-[375px]:pt-[633px] hidden dark:block"
       />
     </div>
   );

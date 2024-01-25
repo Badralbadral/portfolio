@@ -107,10 +107,8 @@ export const Header = () => {
             Contact
           </a>
         </nav>
-        <div className="mr-5 text-gray-600 dark:text-[#D1D5DB] ">
-          <p className="text-lg text-gray-600 font-normal min-[375px]:hidden">
-            Switch Theme
-          </p>
+        <div className="mr-5 text-gray-600 ">
+          <p className="text-lg font-normal min-[375px]:hidden">Switch Theme</p>
           <svg
             className="hidden dark:block cursor-pointer"
             onClick={() => setTheme(`light`)}

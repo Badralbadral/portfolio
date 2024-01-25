@@ -74,13 +74,50 @@ export const Hero = () => {
           </svg>
           Available for new projects
         </p>
-        <div className="mt-12 flex gap-4 dark:hidden">
+        <div className="mt-11 flex items-center gap-[12px] dark:hidden">
           <svg
+            xmlns="http://www.w3.org/2000/svg"
             width={24}
             height={24}
             viewBox="0 0 24 24"
             fill="none"
+          >
+            <path
+              d="M15 22V18C15.1392 16.7473 14.78 15.4901 14 14.5C17 14.5 20 12.5 20 9C20.08 7.75 19.73 6.52 19 5.5C19.28 4.35 19.28 3.15 19 2C19 2 18 2 16 3.5C13.36 3 10.64 3 8.00004 3.5C6.00004 2 5.00004 2 5.00004 2C4.70004 3.15 4.70004 4.35 5.00004 5.5C4.27191 6.51588 3.91851 7.75279 4.00004 9C4.00004 12.5 7.00004 14.5 10 14.5C9.61004 14.99 9.32004 15.55 9.15004 16.15C8.98004 16.75 8.93004 17.38 9.00004 18V22"
+              stroke="#4B5563"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M9 18C4.49 20 4 16 2 16"
+              stroke="#4B5563"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <svg
             xmlns="http://www.w3.org/2000/svg"
+            width={22}
+            height={19}
+            viewBox="0 0 22 19"
+            fill="none"
+          >
+            <path
+              d="M21 1C21 1 20.3 3.1 19 4.4C20.6 14.4 9.6 21.7 1 16C3.2 16.1 5.4 15.4 7 14C2 12.5 -0.5 6.6 2 2C4.2 4.6 7.6 6.1 11 6C10.1 1.8 15 -0.6 18 2.2C19.1 2.2 21 1 21 1Z"
+              stroke="#4B5563"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
           >
             <path
               d="M5 5.5C5 4.57174 5.36875 3.6815 6.02513 3.02513C6.6815 2.36875 7.57174 2 8.5 2H12V9H8.5C7.57174 9 6.6815 8.63125 6.02513 7.97487C5.36875 7.3185 5 6.42826 5 5.5Z"
