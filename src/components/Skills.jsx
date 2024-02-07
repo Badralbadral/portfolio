@@ -23,7 +23,7 @@ export const Skills = () => {
           })}
         </div>
       </div>
-      <div className="flex justify-between || max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:gap-[20px] min-[375px]:hidden ">
+      <div className="flex justify-between || max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:gap-[20px] min-[376px]:hidden ">
         {Languages.map((e, index) => {
           return <Div key={index} value={e.svg} title={e.title} />;
         })}

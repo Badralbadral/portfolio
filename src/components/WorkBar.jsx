@@ -7,7 +7,7 @@ export const WorkBar = ({ title, desc, index }) => {
         <div className="dark:bg-[#374151] w-[576px] h-[480px] rounded-s-xl max-[375px]:rounded-s-[0px]  max-[375px]:rounded-t-xl border-[1px] border-gray-100 dark:border-[#1F2937] p-12 bg-gray-100 || max-[375px]:w-[343px] max-[375px]:h-[256px] max-[375px]:p-[32px]">
           <img
             className="max-[375px]:w-[279px] max-[375px]:h-[192px] max-[375px]:rounded-xl"
-            src="https://s3-alpha-sig.figma.com/img/13a1/57f2/d0bfafa5cbd6a89dfe634a542f95ebd2?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NYitTML6jMKPuAP2IWSes8W9g5f3qjAfXibD~fym3hK6hfGSEiSfNnMVIgVnn-3CMeztC3E9FuM1OPEGmDkUijQbJM~f58GdGXoiOGFVcklsPf4GiyEtfFoxiRwc9cge2LwJ6qYOTnJVg5YcEOsoX0Loz9qCRikZoKvvZAeiE1ctnmroxdvwlyzNdOUkqi6aeYWgqJQMBf3ux3Ju-2gY2Zu~Xjf8XbYnoWZ0Syo4o6cjT4S3U82rQ2LIZLuxHxuRrUyn1gUvFxmNLJHcXfrEqvjr0Ivsh6JJZSeoST0uVK7R0~pz1rAT~Hm41H6fYGwzO4wnllp3KzEWw3nQ~tuwPA__"
+            src="/Picture.png"
           />
         </div>
         <div className="dark:bg-[#1F2937] flex flex-col gap-6 rounded-e-xl  max-[375px]:rounded-e-[0px]  max-[375px]:rounded-b-[12px]  w-[576px] h-[480px] p-12 border-[1px] border-white dark:border-[#1F2937] bg-white || max-[375px]:w-[343px] max-[375px]:p-[32px] max-[375px]:h-[516px]">
@@ -69,7 +69,7 @@ export const WorkBar = ({ title, desc, index }) => {
         <div className="dark:bg-[#374151] w-[576px] h-[480px] rounded-e-xl max-[375px]:rounded-e-[0px] max-[375px]:rounded-t-xl border-[1px] border-gray-100 dark:border-[#1F2937] p-12 bg-gray-100 || max-[375px]:w-[343px] max-[375px]:h-[256px] max-[375px]:p-[32px]">
           <img
             className="max-[375px]:w-[279px] max-[375px]:h-[192px] max-[375px]:rounded-xl"
-            src="https://s3-alpha-sig.figma.com/img/13a1/57f2/d0bfafa5cbd6a89dfe634a542f95ebd2?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NYitTML6jMKPuAP2IWSes8W9g5f3qjAfXibD~fym3hK6hfGSEiSfNnMVIgVnn-3CMeztC3E9FuM1OPEGmDkUijQbJM~f58GdGXoiOGFVcklsPf4GiyEtfFoxiRwc9cge2LwJ6qYOTnJVg5YcEOsoX0Loz9qCRikZoKvvZAeiE1ctnmroxdvwlyzNdOUkqi6aeYWgqJQMBf3ux3Ju-2gY2Zu~Xjf8XbYnoWZ0Syo4o6cjT4S3U82rQ2LIZLuxHxuRrUyn1gUvFxmNLJHcXfrEqvjr0Ivsh6JJZSeoST0uVK7R0~pz1rAT~Hm41H6fYGwzO4wnllp3KzEWw3nQ~tuwPA__"
+            src="/Picture.png"
           />
         </div>
         <div className="dark:bg-[#1F2937] flex flex-col gap-6 rounded-s-xl max-[375px]:rounded-s-[0px]  max-[375px]:rounded-b-[12px] w-[576px] h-[480px] p-12 border-[1px] border-white dark:border-[#1F2937] bg-white || max-[375px]:w-[343px] max-[375px]:p-[32px] max-[375px]:h-[516px]">
