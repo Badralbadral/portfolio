@@ -4,7 +4,7 @@ import { About } from "./About";
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
 import { Work } from "./Work";
-import { ContactME } from "./ContactME";
+// import { ContactMe } from "./ContactMe";
 import { Footer } from "./Footer";
 
 export const Portfolio = () => {
@@ -34,10 +34,10 @@ export const Portfolio = () => {
         {" "}
         <Work />
       </section>
-      <section id="section7">
+      {/* <section id="section7">
         {" "}
-        <ContactME />
-      </section>
+        <ContactMe />
+      </section> */}
       <section id="section8">
         {" "}
         <Footer />

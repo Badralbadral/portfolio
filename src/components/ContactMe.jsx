@@ -1,4 +1,4 @@
-export const ContactME = () => {
+export const ContactMe = () => {
   return (
     <div className="dark:bg-[#030712] h-[560px] py-24 px-20 flex flex-col items-center || max-[375px]:py-16 max-[375px]:px-4">
       <p className="dark:bg-[#374151] dark:text-[#D1D5DB] py-1 px-5 bg-gray-200 rounded-xl text-gray-600 text-sm font-medium mb-4">
