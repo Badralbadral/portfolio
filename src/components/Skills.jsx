@@ -32,11 +32,11 @@ export const Skills = () => {
         })}
       </div>
       <img
-        src="/Vector1.svg"
+        src="/Vector.svg"
         className="absolute pt-[132px] pl-[500px] max-[375px]:pl-[247px] max-[375px]:pt-[281px] hidden dark:block"
       />
       <img
-        src="/Vector2.svg"
+        src="/Vector.png"
         className="absolute pt-[123px] pl-[1158px] max-[375px]:pl-[0px] max-[375px]:pt-[389px] hidden dark:block"
       />
       <img
