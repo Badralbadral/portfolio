@@ -1,11 +1,11 @@
 export const Hero = () => {
   return (
-    <div className="pt-44 pb-24 px-20 flex justify-between max-[375px]:flex-col-reverse max-[375px]:py-16 max-[375px]:px-4 max-[375px]:gap-[90px] dark:bg-[#030712] ">
+    <div className="pt-44 pb-24 px-20 flex justify-center gap-[130px] max-[375px]:flex-col-reverse max-[375px]:py-16 max-[375px]:px-4 max-[375px]:gap-[90px] dark:bg-[#030712]">
       <div className="Bleft ">
         <h1 className="text-6xl font-bold text-gray-900 mb-4 // max-[375px]:font-semibold max-[375px]:text-4xl max-[375px]:mb-2 dark:text-[#D1D5DB]">
           Hi, I’m Sagar 👋
         </h1>
-        <p className="max-w-screen-md h-20 mb-12 text-base font-normal text-gray-600 // max-[375px]:font-normal max-[375px]:text-base max-[375px]:w-[343px] max-[375px]:mb-[130px] dark:text-[#D1D5DB]">
+        <p className="w-[750px] h-20 mb-12 text-base font-normal text-gray-600 // max-[375px]:font-normal max-[375px]:text-base max-[375px]:w-[343px] max-[375px]:mb-[130px] dark:text-[#D1D5DB]">
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating (and occasionally designing) exceptional digital experiences
           that are fast, accessible, visually appealing, and responsive. Even
@@ -74,7 +74,7 @@ export const Hero = () => {
           </svg>
           Available for new projects
         </p>
-        <div className="mt-11 flex items-center gap-[12px] dark:hidden">
+        <div className="relative top-[38px] left-2 flex items-center gap-[14px] dark:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -156,7 +156,7 @@ export const Hero = () => {
             />
           </svg>
         </div>
-        <div className="opacity-0 mt-9  dark:opacity-100 flex">
+        <div className="opacity-0 mt-10 dark:opacity-100 flex">
           <svg
             width={36}
             height={36}

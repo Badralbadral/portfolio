@@ -3,7 +3,7 @@ import { SideBar } from "./SideBar";
 import { useState } from "react";
 
 export const Header = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme(`light`);
   const [open, setOpen] = useState(false);
 
   const toggle = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <div
       className="fixed left-0 right-0 z-50 bg-white w-full flex justify-between items-center px-20 py-4 dark:bg-[#030712] // max-[375px]:w-[375px] max-[375px]:p-4 max-[375px]:flex-col max-[375px]:h-fit
-     max-[375px]:overflow-hidden duration-300"
+    duration-300"
     >
       <div className=" text-3xl || max-[375px]:text-3xl max-[375px]:font-bold max-[375px]:flex  max-[375px]:gap-[209px]">
         <a href="#section1">&#60;SS /&#62;</a>
@@ -220,7 +220,7 @@ export const Header = () => {
         </button>
       </div>
       {open && (
-        <div className="min-[375px]:hidden">
+        <div className="min-[376px]:hidden">
           <SideBar />
         </div>
       )}
